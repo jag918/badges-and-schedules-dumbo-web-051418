@@ -21,6 +21,6 @@ def printer(attendees)
   }
   new_rooms = assign_rooms(attendees)
   new_rooms{|val|
-    
+    puts(val)
   }
 end
