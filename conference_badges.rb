@@ -10,7 +10,7 @@ end
 
 def assign_rooms(array)
   new_array=[]
-  array.each_with_index{|val,index| new_array<< "Hello, #{array[index]}! You'll be assigned to room #{index+1}!"}
+  array.each_with_index{|val,index| new_array << "Hello, #{array[index]}! You'll be assigned to room #{index+1}!"}
   new_array
 end
 
@@ -19,6 +19,8 @@ def printer(attendees)
   new.each{|val|
     puts(val)
   }
-  puts new
-  assign_rooms(attendees)
+  new_rooms = assign_rooms(attendees)
+  new_rooms{|val|
+    
+  }
 end
