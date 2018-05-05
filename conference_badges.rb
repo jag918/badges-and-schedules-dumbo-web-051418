@@ -16,6 +16,7 @@ end
 
 def printer(attendees)
   new=batch_badge_creator(attendees)
+  new.each
   puts new
   assign_rooms(attendees)
 end
