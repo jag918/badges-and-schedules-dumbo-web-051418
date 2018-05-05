@@ -15,5 +15,3 @@ def printer
   batch_badge_creator(["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"])
   assign_rooms(["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"])
 end
-
-printer
