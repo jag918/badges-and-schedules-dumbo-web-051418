@@ -20,7 +20,7 @@ def printer(attendees)
     puts(val)
   }
   new_rooms = assign_rooms(attendees)
-  new_rooms{|val|
+  new_rooms.each{|val|
     puts(val)
   }
 end
